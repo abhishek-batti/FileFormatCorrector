@@ -1,0 +1,29 @@
+/* div{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width:30%;
+} */
+
+ #left_div{
+    background-color: aqua;
+    width: ;
+}
+
+#rigth_div{
+    float: left;
+}
+
+#middle_div{
+    float: left;
+} 
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}

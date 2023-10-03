@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        #left_div {
+            /* background-color: aqua; */
+            width: 250px;
+            height: 650px;
+            border: solid;
+            border-color: white;
+            overflow: auto;
+            color : white;
+        }
+
+        #right_div {
+            
+            width: 450px;
+            overflow: auto;
+            height: 650px;
+            border-color: white;
+            /* background-color: rgb(127, 22, 226); */
+            border: solid;
+            color: green;
+
+        }
+
+        #middle_div {
+            width: 450px;
+            overflow: auto;
+            word-wrap: break-word;
+            height: 650px;
+            overflow-wrap: break-word;         
+            border: solid;
+            border-color: white;
+            color: yellow;
+
+        }
+
+        h2{
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            background-color: black;
+        }
+        .column{
+            padding: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="left_div" class="column">
+            <form action="" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit">submit</button>
+                <h2>Log file</h2>
+                <pre>{{logfilecontent}}</pre>
+            </form>
+        </div>
+        <div id="middle_div" class="column">
+            <h2>Original Files</h2>
+            {% for cont in filecontent %}
+            {% for c in cont%}
+            <pre>{{c}}</pre>
+            {% endfor %}
+            <br>
+            {% endfor%}
+        </div>
+
+        <div id="right_div" class="column">
+            <h2>Corrected Files</h2>
+            {% for cont in cleancontent %}
+            {% for c in cont%}
+            <pre>{{c}}</pre>
+            {% endfor %}
+            <br>
+            {% endfor%}
+        </div>
+    </div>
+
+</body>
+
+</html>

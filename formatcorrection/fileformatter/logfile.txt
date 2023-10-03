@@ -1,0 +1,13 @@
+NewTagFound: Registration_Dttm 
+NewTagFound: Id 
+NewTagFound: First_Name 
+NewTagFound: Last_Name 
+NewTagFound: Email 
+NewTagFound: Gender 
+NewTagFound: Ip_Address 
+NewTagFound: Cc 
+NewTagFound: Country 
+NewTagFound: Birthdate 
+NewTagFound: Salary 
+NewTagFound: Title 
+NewTagFound: Comments 

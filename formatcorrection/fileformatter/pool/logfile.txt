@@ -1,0 +1,13 @@
+NewTagFound:userdata1.parquet: Registration_Dttm 
+NewTagFound:userdata1.parquet: Id 
+NewTagFound:userdata1.parquet: First_Name 
+NewTagFound:userdata1.parquet: Last_Name 
+NewTagFound:userdata1.parquet: Email 
+NewTagFound:userdata1.parquet: Gender 
+NewTagFound:userdata1.parquet: Ip_Address 
+NewTagFound:userdata1.parquet: Cc 
+NewTagFound:userdata1.parquet: Country 
+NewTagFound:userdata1.parquet: Birthdate 
+NewTagFound:userdata1.parquet: Salary 
+NewTagFound:userdata1.parquet: Title 
+NewTagFound:userdata1.parquet: Comments 

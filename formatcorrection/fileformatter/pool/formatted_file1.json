@@ -1,0 +1,56 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "name": "Abhishek",
+            "product_id": 0,
+            "product_name": "",
+            "product_price": 0.0,
+            "store_location": "",
+            "manufacturer": "",
+            "mail": "",
+            "occupation": "",
+            "address": "",
+            "rollno": 0
+        },
+        {
+            "id": 2,
+            "name": "atul",
+            "mail": "xyz@gmail.com",
+            "product_id": 0,
+            "product_name": "",
+            "product_price": 0.0,
+            "store_location": "",
+            "manufacturer": "",
+            "occupation": "",
+            "address": "",
+            "rollno": 0
+        },
+        {
+            "id": 3,
+            "name": "ritik",
+            "occupation": "software engineer",
+            "product_id": 0,
+            "product_name": "",
+            "product_price": 0.0,
+            "store_location": "",
+            "manufacturer": "",
+            "mail": "",
+            "address": "",
+            "rollno": 0
+        },
+        {
+            "id": 4,
+            "name": "chaman",
+            "address": "gothapatna",
+            "rollno": 10,
+            "product_id": 0,
+            "product_name": "",
+            "product_price": 0.0,
+            "store_location": "",
+            "manufacturer": "",
+            "mail": "",
+            "occupation": ""
+        }
+    ]
+}
