@@ -1,13 +1,11 @@
-NewTagFound:userdata1.parquet: Registration_Dttm 
-NewTagFound:userdata1.parquet: Id 
-NewTagFound:userdata1.parquet: First_Name 
-NewTagFound:userdata1.parquet: Last_Name 
-NewTagFound:userdata1.parquet: Email 
-NewTagFound:userdata1.parquet: Gender 
-NewTagFound:userdata1.parquet: Ip_Address 
-NewTagFound:userdata1.parquet: Cc 
-NewTagFound:userdata1.parquet: Country 
-NewTagFound:userdata1.parquet: Birthdate 
-NewTagFound:userdata1.parquet: Salary 
-NewTagFound:userdata1.parquet: Title 
-NewTagFound:userdata1.parquet: Comments 
+NewKeyFound:file1.json: id <class 'int'> 
+NewKeyFound:file1.json: name <class 'str'> 
+NewKeyFound:file1.json: mail <class 'str'> 
+NewKeyFound:file1.json: occupation <class 'str'> 
+NewKeyFound:file1.json: address <class 'str'> 
+NewKeyFound:file1.json: rollno <class 'int'> 
+NewKeyFound:file2.json: product_id <class 'int'> 
+NewKeyFound:file2.json: product_name <class 'str'> 
+NewKeyFound:file2.json: product_price <class 'float'> 
+NewKeyFound:file2.json: store_location <class 'str'> 
+NewKeyFound:file2.json: manufacturer <class 'str'> 

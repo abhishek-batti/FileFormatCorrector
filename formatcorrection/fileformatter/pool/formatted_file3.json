@@ -4,40 +4,40 @@
             "product_id": 1,
             "product_name": "football",
             "product_price": 400.0,
-            "store_location": "",
-            "manufacturer": "",
             "id": 0,
             "name": "",
             "mail": "",
             "occupation": "",
             "address": "",
-            "rollno": 0
+            "rollno": 0,
+            "store_location": "",
+            "manufacturer": ""
         },
         {
             "product_id": 1,
             "product_name": "football",
             "store_location": "madrid",
-            "product_price": 0.0,
-            "manufacturer": "",
             "id": 0,
             "name": "",
             "mail": "",
             "occupation": "",
             "address": "",
-            "rollno": 0
+            "rollno": 0,
+            "product_price": 0.0,
+            "manufacturer": ""
         },
         {
             "product_id": 1,
             "product_name": "football",
             "manufacturer": "adidas",
-            "product_price": 0.0,
-            "store_location": "",
             "id": 0,
             "name": "",
             "mail": "",
             "occupation": "",
             "address": "",
-            "rollno": 0
+            "rollno": 0,
+            "product_price": 0.0,
+            "store_location": ""
         }
     ]
 }
