@@ -53,7 +53,3 @@ def mainpage(request):
         return render(request, "mainpage.html", {'form': form, 'filecontent': file_content, 'cleancontent': clean_content, "logfilecontent": logfilecontent})
 
 
-def displayfile(request):
-    file = open('fileformatter/logfile.txt', 'r')
-    content = file.read()
-    return render(request, "displayfile.html", {'content': content})
