@@ -1,0 +1,6 @@
+{
+    "products":[
+    {"product_id":1, "product_name":"football", "product_price":400.0},
+    {"product_id":1, "product_name":"football", "store_location":"madrid"},
+    {"product_id":1, "product_name":"football", "manufacturer":"adidas"}
+]}

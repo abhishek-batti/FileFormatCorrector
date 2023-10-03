@@ -1,0 +1,7 @@
+{
+    "employees":[
+    {"id":1, "name":"Abhishek"},
+    {"id":2, "name":"atul", "mail":"xyz@gmail.com"},
+    {"id":3, "name":"ritik", "occupation":"software engineer"},
+    {"id":4, "name":"chaman", "address":"gothapatna", "rollno":10}
+]}
