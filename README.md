@@ -2,7 +2,7 @@
 
 # To start the server
 1. Go to formatcorrection directory
-   cd formatcorrection
+   cd FileFormatCorrector\formatcorrection
 
 2. Run the following commands
    1. python manage.py makemigration
