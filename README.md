@@ -1,4 +1,4 @@
 # FileFormatCorrector
 
-Mini project 
-Formats supported- XML, Parquet, Json
+#To start the server
+1. Go to 
