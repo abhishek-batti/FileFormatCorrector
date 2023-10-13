@@ -1,6 +1,6 @@
 # FileFormatCorrector
 
-#prerequisites
+# prerequisites
 1. pip install django
 2. pip install lxml
 
