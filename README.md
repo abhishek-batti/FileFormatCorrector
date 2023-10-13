@@ -1,5 +1,9 @@
 # FileFormatCorrector
 
+#prerequisites
+1. pip install django
+2. pip install lxml
+
 # To start the server
 1. Go to formatcorrection directory
    cd FileFormatCorrector\formatcorrection
