@@ -3,6 +3,7 @@
 # prerequisites
 1. pip install django
 2. pip install lxml
+3. pip install pyarrow
 
 # To start the server
 1. Go to formatcorrection directory
